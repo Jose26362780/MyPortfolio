@@ -297,14 +297,14 @@ nav.show div.icon-close {
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
-  top: -16.8%;
-  left: 16.7%;
+  top: -12.4%;
+  left: 15%;
   z-index: 0;
 }
 
 #home .image img {
   position: relative;
-  right: 2.93rem;
+  
 }
 
 #home .image img,
