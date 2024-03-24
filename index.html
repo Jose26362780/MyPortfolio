@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BIBLIOTECA CAROUSEL  swipper -->
+    <!--
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icones -->
+
+    <link rel="stylesheet" href="assets/icomoon/style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">José<span>.Dev</span></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Tecnologias</a></li>
+            <li><a class="title" href="#testimonials">Projetos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="./assets/home.png"
+              alt="mulher secando o cabelo do cliente"
+            />
+          </div>
+
+          <div class="text">
+            <h2 class="title">
+              Olá, meu nome é Jose Martinez e sou desenvolvedor web
+            </h2>
+
+            <p>
+              Apaixonado por transformar designs criativos em experiências
+              digitais interativas e intuitivas através do desenvolvimento de
+              Front-end de alto desempenho.
+            </p>
+
+            <a class="button" href="#">My Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--  ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="./assets/contact.png" alt="3 mulheres sorrindo" />
+          </div>
+          <div class="text">
+            <h2 class="title">Quem sou</h2>
+            <p>Apaixonado por tecnologia.</p>
+            <br />
+            <h3>Full Stack developer</h3>
+            <br />
+            <p>
+              Estudante de engenharia de software com foco em desenvolvimento
+              Web Full stack e estudante da <strong>Rocketseat</strong>
+            </p>
+            <br />
+            <p>
+              Sou um desenvolvedor Front-end apaixonado pela criação de interfaces envolventes e funcionais que proporcionam experiências digitais excepcionais. Com uma sólida base em HTML, CSS e JavaScript, estou constantemente explorando novas tecnologias e tendências para aprimorar minhas habilidades e entregar produtos de alta qualidade.</p>
+
+              <p>
+              <br />
+              Estou sempre em busca de oportunidades para expandir meu conhecimento e contribuir para projetos inovadores no mundo do desenvolvimento web
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SERVICES -->
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Tecnologias</h2>
+            <p class="subtitle">
+              Desde os fundamentos de logica de programação, algoritmos, pensamento computacional, clean code, metodologias ageis como scrum e kanbam estas são as tecnologias que estou estudando ate chegar ao 
+              <strong>Desenvolvimento Web - Full Stack</strong> 
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title"> Html </h3>
+              <p>
+                Terapia completa para couro cabeludo e fios, protegendo todos os
+                tipos de cabelos, inclusive os longos e finos.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title"> Css </h3>
+              <p>
+                Terapia completa para couro cabeludo e fios, protegendo todos os
+                tipos de cabelos, inclusive os longos e finos.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Javascript</h3>
+              <p>
+                Terapia completa para couro cabeludo e fios, protegendo todos os
+                tipos de cabelos, inclusive os longos e finos.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">React</h3>
+              <p>
+                A nossa equipe é repleta de profissionais renomados, famosos por
+                lançarem tendências com cortes diferenciados e clássicos.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Node</h3>
+              <p>
+                O beautysalon conta com diversos tratamentos naturais e
+                totalmente veganos, para qualquer tipo de cabelo.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Git & Github</h3>
+              <p>
+                O beautysalon conta com diversos tratamentos naturais e
+                totalmente veganos, para qualquer tipo de cabelo.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--TESTEMONIALS-->
+
+      <div class="divider-1"></div>
+      <!--olhar esse codigo que nao esta igual -->
+      <section class="section" id="testimonials">
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Meus Projetos em Destaque! </h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Eu sou cliente do Beautysalon há 5 anos e não troco por
+                    nada! Certamente meu cabelo mudou muito depois que comecei a
+                    tratar somente com produtos naturais e veganos. São
+                    profissionais incríveis e qualificados.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/60.jpg"
+                      alt=" foto de wanessa souza"
+                    />
+                    Vanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Minha mãe frequenta o salão há anos e me levou um dia para
+                    conhecer. Minha experiência foi incrível, eu continuo
+                    fazendo o a terapia capilar e isso salvou o meu cabelo.
+                    Adoro todos os profissionais do Beautysalon.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/2.jpg"
+                      alt="foto de mei jing"
+                    />
+                    Mei jing
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Desde que conheci a Beautysalon minha vida mudo o
+                    profissionais são altamente qualificados, sempre que quero
+                    mudar alguma coisa em meu visual posso ter a garantia que
+                    eles vão acertar com a melhor forma de dar estilo.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/71.jpg"
+                      alt="foto de luna falcão"
+                    />
+                    Luna Falcão
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--CONTACT-->
+      <section class="section" id="contact">
+        <div class="image">
+          <img
+            src="./assets/contact.png"
+            alt="mulher secando o cabelo do cliente"
+          />
+        </div>
+
+        <div class="container grid">
+          <div class="text">
+            <h4>Contato</h4>
+            <h2 class="title">
+              Gostou do Meu trabalho? Vamos trabalhar juntos.!
+            </h2>
+            <p>
+              Entre em contato e assim que possivel retornarei sua mensagem.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5542999280298&text=Oi! tive interese em teu trabalho"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Me mande uma mensagem</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>11 99845-6754</li>
+              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home" class="logo logo-alt">José<span>.Dev</span></a>
+          <p>Copyright ©2024</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social grid">
+            <a href="https://github.com/Jose26362780" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+          <a href="https://www.instagram.com/jose_martinez.9.8/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+          <a
+          href="https://www.linkedin.com/in/jose-martinez-352032222/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--
+       codigo antes da actualização da lib 
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+      <!--  io icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Javascript-->
+    <script src="main.js"></script>
+  </body>
+</html>
