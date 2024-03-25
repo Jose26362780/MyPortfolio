@@ -30,6 +30,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyPortfolio</title>
+
+    <!--Instalando a biblioteca de animação -->
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+
+    <!--para adicionar a animação em lottiesfies -->
+
+    <link rel="shortcut icon" href="./assets/galaxie.svg" type="image/x-icon" />
   </head>
   <body>
     <header id="header">
@@ -55,10 +65,14 @@
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
-            <img
-              src="./assets/home.png"
-              alt="mulher secando o cabelo do cliente"
-            />
+            <dotlottie-player
+              src="https://lottie.host/40b981f8-9114-4d00-9b45-0c5c3fbd00f7/c30hvJYtbU.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></dotlottie-player>
           </div>
 
           <div class="text">
@@ -83,7 +97,7 @@
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
-            <img src="./assets/contact.png" alt="3 mulheres sorrindo" />
+            <img src="./assets/fundo.png" alt="homem com notebook" />
           </div>
           <div class="text">
             <h2 class="title">Quem sou</h2>
@@ -97,11 +111,19 @@
             </p>
             <br />
             <p>
-              Sou um desenvolvedor Front-end apaixonado pela criação de interfaces envolventes e funcionais que proporcionam experiências digitais excepcionais. Com uma sólida base em HTML, CSS e JavaScript, estou constantemente explorando novas tecnologias e tendências para aprimorar minhas habilidades e entregar produtos de alta qualidade.</p>
+              Sou um desenvolvedor Front-end apaixonado pela criação de
+              interfaces envolventes e funcionais que proporcionam experiências
+              digitais excepcionais. Com uma sólida base em HTML, CSS e
+              JavaScript, estou constantemente explorando novas tecnologias e
+              tendências para aprimorar minhas habilidades e entregar produtos
+              de alta qualidade.
+            </p>
 
-              <p>
+            <p>
               <br />
-              Estou sempre em busca de oportunidades para expandir meu conhecimento e contribuir para projetos inovadores no mundo do desenvolvimento web
+              Estou sempre em busca de oportunidades para expandir meu
+              conhecimento e contribuir para projetos inovadores no mundo do
+              desenvolvimento web
             </p>
           </div>
         </div>
@@ -116,65 +138,93 @@
           <header>
             <h2 class="title">Tecnologias</h2>
             <p class="subtitle">
-              Desde os fundamentos de logica de programação, algoritmos, pensamento computacional, clean code, metodologias ageis como scrum e kanbam estas são as tecnologias que estou estudando ate chegar ao 
-              <strong>Desenvolvimento Web - Full Stack</strong> 
+              Desde os fundamentos de logica de programação, algoritmos,
+              pensamento computacional, clean code, metodologias ageis como
+              scrum e kanbam estas são as tecnologias que estou estudando ate
+              chegar ao
+              <strong>Desenvolvimento Web - Full Stack</strong>
             </p>
           </header>
           <div class="cards grid">
             <div class="card">
-              <i class="icon-woman-hair"></i>
-              <h3 class="title"> Html </h3>
+              <i class="icon-html5"></i>
+              <h3 class="title">Html</h3>
               <p>
-                Terapia completa para couro cabeludo e fios, protegendo todos os
-                tipos de cabelos, inclusive os longos e finos.
+                Ele é a linguagem de marcação responsavel por dar toda a
+                estrutura de nossos sites
               </p>
             </div>
 
             <div class="card">
-              <i class="icon-woman-hair"></i>
-              <h3 class="title"> Css </h3>
+              <i class="icon-css3"></i>
+              <h3 class="title">Css</h3>
               <p>
-                Terapia completa para couro cabeludo e fios, protegendo todos os
-                tipos de cabelos, inclusive os longos e finos.
+                Como linguagem de marcação ele funciona para dar estilos as
+                paginas
               </p>
             </div>
 
             <div class="card">
-              <i class="icon-woman-hair"></i>
+              <i class="icon-javascript"></i>
               <h3 class="title">Javascript</h3>
               <p>
-                Terapia completa para couro cabeludo e fios, protegendo todos os
-                tipos de cabelos, inclusive os longos e finos.
+                É a stack em destaque que pode rodar do lado do navegador assim
+                como o lado do servidor
               </p>
             </div>
 
             <div class="card">
-              <i class="icon-trim"></i>
+              <i class="icon-react"></i>
               <h3 class="title">React</h3>
               <p>
-                A nossa equipe é repleta de profissionais renomados, famosos por
-                lançarem tendências com cortes diferenciados e clássicos.
+                Para a criação de interfaces agradaveis, bonitas e interesantes
               </p>
             </div>
 
             <div class="card">
-              <i class="icon-cosmetic"></i>
+              <i class="icon-next-dot-js"></i>
+              <h3 class="title">Framework</h3>
+              <p>
+                o Next.js é um framework para React que oferece uma estrutura básica para projetos React.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-tailwindcss"></i>
+              <h3 class="title">Tailwind Css</h3>
+              <p>
+               Tailwind CSS é um framework CSS (Cascading Style Sheets) com classes predefinidas que você pode usar para construir e projetar páginas web diretamente na sua marcação. Ele permite que você escreva CSS em seu HTML na forma de classes pré-definidas.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-styled-components"></i>
+              <h3 class="title">Biblioteca</h3>
+              <p>
+                O Styled-components é uma biblioteca poderosa para estilização de componentes em aplicações React.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-node-dot-js"></i>
               <h3 class="title">Node</h3>
               <p>
-                O beautysalon conta com diversos tratamentos naturais e
-                totalmente veganos, para qualquer tipo de cabelo.
+                Para Rodar o Javascript do lado do servidor e construir
+                aplicações robustas e escalaveis
               </p>
             </div>
 
             <div class="card">
-              <i class="icon-cosmetic"></i>
-              <h3 class="title">Git & Github</h3>
-              <p>
-                O beautysalon conta com diversos tratamentos naturais e
-                totalmente veganos, para qualquer tipo de cabelo.
-              </p>
+              <i class="icon-postgresql"></i>
+              <h3 class="title">Banco de dados</h3>
+              <p>Banco de dados</p>
             </div>
 
+            <div class="card">
+              <i class="icon-github"></i>
+              <h3 class="title">Git & Github</h3>
+              <p>Para versionamento de Codigo</p>
+            </div>
           </div>
         </div>
       </section>
@@ -186,7 +236,7 @@
       <section class="section" id="testimonials">
         <div class="container swiper">
           <header>
-            <h2 class="title">Meus Projetos em Destaque! </h2>
+            <h2 class="title">Meus Projetos em Destaque!</h2>
           </header>
           <div class="testimonials swiper-container">
             <div class="swiper-wrapper">
@@ -258,14 +308,14 @@
 
       <!--CONTACT-->
       <section class="section" id="contact">
-        <div class="image">
-          <img
-            src="./assets/contact.png"
-            alt="mulher secando o cabelo do cliente"
-          />
-        </div>
-
         <div class="container grid">
+          <div class="image">
+            <img
+              src="./assets/contact.png"
+              alt="mulher secando o cabelo do cliente"
+            />
+          </div>
+
           <div class="text">
             <h4>Contato</h4>
             <h2 class="title">
@@ -281,14 +331,6 @@
               ><i class="icon-whatsapp"></i>Me mande uma mensagem</a
             >
           </div>
-
-          <div class="links">
-            <ul class="grid">
-              <li><i class="icon-phone"></i>11 99845-6754</li>
-              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
-              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
-            </ul>
-          </div>
         </div>
       </section>
       <div class="divider-1"></div>
@@ -303,18 +345,21 @@
           <p>Todos os direitos reservados.</p>
         </div>
         <div class="social grid">
-            <a href="https://github.com/Jose26362780" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
-        </a>
-          <a href="https://www.instagram.com/jose_martinez.9.8/" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
+          <a href="https://github.com/Jose26362780" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
           <a
-          href="https://www.linkedin.com/in/jose-martinez-352032222/"
-          target="_blank"
-        >
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a>
+            href="https://www.instagram.com/jose_martinez.9.8/"
+            target="_blank"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jose-martinez-352032222/"
+            target="_blank"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
         </div>
       </div>
     </footer>
@@ -328,12 +373,11 @@
        codigo antes da actualização da lib 
       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
-      <!--  io icon -->
+    <!--  io icon -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
-
 
     <!-- scrollreveal -->
     <script src="https://unpkg.com/scrollreveal"></script>

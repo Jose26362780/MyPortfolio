@@ -11,6 +11,7 @@
   "editor.formatOnPaste": true,
   "files.autoSave": "afterDelay",
 
+
   // explorer
   "explorer.compactFolders": false,
 

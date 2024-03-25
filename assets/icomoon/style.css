@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?xmh0oe');
-  src:  url('fonts/icomoon.eot?xmh0oe#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?xmh0oe') format('truetype'),
-    url('fonts/icomoon.woff?xmh0oe') format('woff'),
-    url('fonts/icomoon.svg?xmh0oe#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?nz02jm');
+  src:  url('fonts/icomoon.eot?nz02jm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?nz02jm') format('truetype'),
+    url('fonts/icomoon.woff?nz02jm') format('woff'),
+    url('fonts/icomoon.svg?nz02jm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,60 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-visualstudiocode:before {
+  content: "\e90d";
+  color: #007acc;
+}
+.icon-netlify:before {
+  content: "\e90e";
+  color: #00c7b7;
+}
+.icon-git:before {
+  content: "\e90f";
+  color: #f05032;
+}
+.icon-github:before {
+  content: "\e910";
+}
+.icon-styled-components:before {
+  content: "\e911";
+  color: #db7093;
+}
+.icon-postgresql:before {
+  content: "\e912";
+  color: #336791;
+}
+.icon-next-dot-js:before {
+  content: "\e913";
+}
+.icon-mysql:before {
+  content: "\e914";
+  color: #4479a1;
+}
+.icon-node-dot-js:before {
+  content: "\e915";
+  color: #393;
+}
+.icon-react:before {
+  content: "\e916";
+  color: #61dafb;
+}
+.icon-javascript:before {
+  content: "\e917";
+  color: #f7df1e;
+}
+.icon-html5:before {
+  content: "\e918";
+  color: #e34f26;
+}
+.icon-css3:before {
+  content: "\e919";
+  color: #1572b6;
+}
+.icon-tailwindcss:before {
+  content: "\e91a";
+  color: #38b2ac;
+}
 .icon-arrow-up:before {
   content: "\e90c";
 }

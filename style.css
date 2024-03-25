@@ -297,7 +297,7 @@ nav.show div.icon-close {
   width: 100%;
   background: var(--base-color-second);
   position: absolute;
-  top: -12.4%;
+  top: -15%;
   left: 15%;
   z-index: 0;
 }
@@ -311,6 +311,8 @@ nav.show div.icon-close {
 #home .image::before {
   border-radius: 0.25rem;
 }
+
+
 
 #home .text {
   margin-left: 1.5rem;
@@ -642,7 +644,7 @@ footer .social a:hover {
   #home .container {
     grid-auto-flow: column; /* para deixar um do lado do outro*/
 
-    justify-content: space-between;
+    
     margin: 0 auto; /* para centralizar a caixa*/
   }
 
@@ -650,6 +652,7 @@ footer .social a:hover {
   dos elementos para aparecer na tela */
   #home .image {
     order: 1;
+    padding-left: 18rem;
   }
 
   #home .text {
