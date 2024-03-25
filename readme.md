@@ -6,7 +6,7 @@ projetos pessoais e os que estou aplicando como caso de estudo.
 Assim como a seção de contato para propostas de trabalho 
 ou de estudo. 
 
-![preview](aqui ira a imagem que esta na pasta .github)
+![preview](.github/cover.png)
 
 
 
