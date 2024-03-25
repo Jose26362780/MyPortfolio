@@ -433,9 +433,8 @@ nav.show div.icon-close {
 
 
 #testimonials img {
-   display: flex;
-  
-  width: 20rem;
+  display: flex;
+  width: 17.5rem;
   height: 12rem;
   margin:0 auto;
   object-fit: cover;
@@ -456,7 +455,7 @@ nav.show div.icon-close {
 
 #testimonials .card {
   padding: 2.4rem;
-  height: 26rem;
+  height: 30rem;
   text-align: left;
   border-radius: 0.6rem;
 }
@@ -676,6 +675,9 @@ footer .social a:hover {
     padding-left: 18rem;
   }
 
+ 
+
+
   #home .text {
     order: 0;
     max-width: 24rem;
@@ -705,6 +707,20 @@ footer .social a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+
+  #testimonials img {
+  display: flex;
+  width: 28rem;
+  height: 12rem;
+  margin:0 auto;
+  object-fit: cover;
+ 
+  
+  border-radius: 0.3rem;
+  flex-direction: column;
+  
+  
+}
 
   /* Contact */
 
