@@ -75,11 +75,14 @@ body {
   border-radius: 0.25rem;
   font: 500 1rem var(--body-font);
 
-  transition: background 0.3s;
+  
+   transition: background 300ms;
+   transition: all 300ms;
 }
 
 .button:hover {
   background: var(--base-color-alt);
+  transform: scale(1.10);
 }
 
 .divider-1 {
