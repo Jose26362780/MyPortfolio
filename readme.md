@@ -28,13 +28,13 @@ ou de estudo.
 
 
 ## 💻 Sobre mim 😄
- Estudante de Engenharia de Software na UNOPAR e 
- Desenvolvedor Front End estudando na Rocketseat do Programa Explorer 
+Entusiasta da programação e estudante de Engenharia de Software com foco em desenvolvimento front-end rumo ao full stack. Dedicado a criar experiências digitais inovadoras que impactam o mundo através da tecnologia.
 
 ## 🔗 Contato 
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-martinez-352032222/)
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mailto:juniorjose1925@gmail.com)
+[![portfolio](https://img.shields.io/badge/Jose.Dev-0A0A0A?style=for-the-badge&logo=MyWeb&logoColor=whit)](https://my-portfolio-jose-martinez.netlify.app/)
 
 ## Referências 🚀
 
