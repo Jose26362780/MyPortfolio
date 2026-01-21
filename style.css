@@ -20,18 +20,17 @@ a {
 img {
   width: 100%;
   height: auto;
+  border-radius: 1.5rem;
 }
 /*=============== VARIABLES ===================*/
 :root {
   --header-height: 4.5rem;
 
-
-
   /* colors */
   --hue: hsl(262, 74%, 24%);
   /* HSL color mode */
   --base-color: hsl(258, 42%, 37%);
-  --base-color-second: hsl(235, 91%, 78%);
+  --base-color-second: hsl(235, 31%, 27%, 1);
   --base-color-alt: hsl(262, 74%, 24%);
   --title-color: #140f07;
   --text-color: hsl(0 0% 46%);
@@ -75,14 +74,13 @@ body {
   border-radius: 0.25rem;
   font: 500 1rem var(--body-font);
 
-  
-   transition: background 300ms;
-   transition: all 300ms;
+  transition: background 300ms;
+  transition: all 300ms;
 }
 
 .button:hover {
   background: var(--base-color-alt);
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
 .divider-1 {
@@ -307,15 +305,12 @@ nav.show div.icon-close {
 
 #home .image img {
   position: relative;
-  
 }
 
 #home .image img,
 #home .image::before {
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
-
-
 
 #home .text {
   margin-left: 1.5rem;
@@ -343,6 +338,7 @@ nav.show div.icon-close {
 
 #about .image {
   position: relative;
+  border-radius: 1rem;
 }
 
 #about .image::before {
@@ -362,7 +358,7 @@ nav.show div.icon-close {
 
 #about .image img,
 #about .image::before {
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 #about .text {
@@ -394,6 +390,13 @@ nav.show div.icon-close {
 .card title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
+}
+
+.ionLogoAngular {
+  font-size: 5rem;
+  color: #dd0031;
+  display: block;
+  margin: 0 auto;
 }
 
 /*=========== Testimonials  ======= */
@@ -433,22 +436,16 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
-
-
 #testimonials img {
   display: flex;
   width: 17.5rem;
   height: 12rem;
-  margin:0 auto;
+  margin: 0 auto;
   object-fit: cover;
- 
-  
+
   border-radius: 0.3rem;
   flex-direction: column;
-  
-  
 }
-
 
 #testimonials .cards {
   display: flex;
@@ -568,7 +565,6 @@ footer .social a:hover {
   background: var(--highlight-color);
 }
 
-
 /* Back to top*/
 
 .back-to-top {
@@ -598,9 +594,6 @@ footer .social a:hover {
   opacity: 1;
   transform: translateY(0);
 }
-
-
-
 
 /*RESPONSIVO */
 
@@ -670,7 +663,6 @@ footer .social a:hover {
   #home .container {
     grid-auto-flow: column; /* para deixar um do lado do outro*/
 
-    
     margin: 0 auto; /* para centralizar a caixa*/
   }
 
@@ -680,9 +672,6 @@ footer .social a:hover {
     order: 1;
     padding-left: 18rem;
   }
-
- 
-
 
   #home .text {
     order: 0;
@@ -715,18 +704,22 @@ footer .social a:hover {
   }
 
   #testimonials img {
-  display: flex;
-  width: 28rem;
-  height: 12rem;
-  margin:0 auto;
-  object-fit: cover;
- 
-  
-  border-radius: 0.3rem;
-  flex-direction: column;
-  
-  
-}
+    display: flex;
+    width: 28rem;
+    height: 12rem;
+    margin: 0 auto;
+    object-fit: cover;
+
+    border-radius: 0.3rem;
+    flex-direction: column;
+  }
+
+  #contact .image img {
+    width: 100%;
+    max-width: 450px; /* coloque aqui o mesmo valor que você usa nas outras imagens */
+    height: auto;
+    object-fit: cover;
+  }
 
   /* Contact */
 
@@ -738,8 +731,6 @@ footer .social a:hover {
   #contact .text {
     max-width: 25rem;
   }
-  
- 
 
   /*Footer*/
 
@@ -756,8 +747,6 @@ footer .social a:hover {
   footer .logo {
     font-size: 2.25rem;
   }
-
-  
 }
 /* Large device : 1023 >
 /* Large device : 992 >
@@ -768,7 +757,49 @@ footer .social a:hover {
 
 @media (min-with: 992px) {
   :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
+    --title-font-size: 5rem;
+    --subtitle-font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    padding: 2.5rem 1.5rem; /* menor que desktop */
+    height: 100%; /* todos com mesma altura dentro da linha */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #home .image::before {
+    width: 85%; /* diminui um pouco a largura */
+    height: 90%; /* diminui a altura */
+    top: -8%; /* sobe/ desce o bloco */
+    left: 8%; /* aproxima/afasta da borda esquerda */
+  }
+
+  #testimonials .cards {
+    grid-template-columns: 1fr; /* 1 por linha */
+  }
+
+  #testimonials .card {
+    height: 100%;
+  }
+
+  #home .image img,
+  #about .image img,
+  #contact .image img,
+  #testimonials img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
   }
 }
