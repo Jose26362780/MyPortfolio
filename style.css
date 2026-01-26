@@ -338,7 +338,6 @@ nav.show div.icon-close {
 
 #about .image {
   position: relative;
-  border-radius: 1rem;
 }
 
 #about .image::before {
@@ -358,7 +357,8 @@ nav.show div.icon-close {
 
 #about .image img,
 #about .image::before {
-  border-radius: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
 #about .text {
