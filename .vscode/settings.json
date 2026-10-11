@@ -25,6 +25,13 @@
   "prettier.singleQuote": false,
   "prettier.tabWidth": 2,
   "prettier.semi": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
 
   // terminal
   "terminal.integrated.fontSize": 16,
