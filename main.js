@@ -1,6 +1,9 @@
 /* Abre e fecha o menu quando clicar no icone  */
 const nav = document.querySelector("#header nav")
 const toggle = document.querySelectorAll("nav .toggle")
+const currentYear = document.querySelector("#current-year")
+
+currentYear.textContent = new Date().getFullYear()
 
 for (const element of toggle) {
   element.addEventListener("click", function () {
@@ -36,7 +39,7 @@ function changeHeaderWhenScroll() {
 /* Testimonial slider swipper carousel */
 
 const swiper = new Swiper(".swiper-container", {
-  slidesPerview: 1,
+  slidesPerView: 1,
   pagination: {
     el: ".swiper-pagination",
   },
